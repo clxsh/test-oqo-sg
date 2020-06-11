@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, html{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a:hover, a:focus, a.focus {
+	text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: #00c63d;
+}
+.logo{
+    display: block;
+    margin-top: 25px;
+    float: left;
+}
+.share{
+    float: right;
+    color: #fff;
+    margin-top: 25px;
+}
+.share span{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.share i{
+    font-size: 30px;
+}
+.banner-principal{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;   
+}
+.logo-club{
+    position: absolute;
+    z-index: 999999999;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+    bottom: 0;
+    margin: 0px;
+    padding: 0px; 
+}
+.curva{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999999;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+}
+.bg-banner{
+    width: 1920px;;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.bg-banner img{
+    width: 100%;
+}
+.llamado{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: #3e3e3e;
+    padding: 60px 0;
+    text-align: center;
+}
+.marcas{
+    display: flex;
+    display: -webkit-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    padding: 30px 0px;
+    border-bottom: 1px solid #9d9d9c;
+    border-top: 1px solid #9d9d9c;
+}
+.marcas img{
+    margin: 17px;
+}
+.inscripcion{
+    font-family: 'Lato', sans-serif;
+    color: #3e3e3e;
+    padding: 60px 0;
+    text-align: center; 
+}
+.inscripcion p{
+    font-size: 18px;
+    margin: 0px;
+}
+.btn-accion{
+    background: rgba(59,170,53,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(59,170,53,1) 0%, rgba(0,141,54,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(59,170,53,1)), color-stop(100%, rgba(0,141,54,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(59,170,53,1) 0%, rgba(0,141,54,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(59,170,53,1) 0%, rgba(0,141,54,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(59,170,53,1) 0%, rgba(0,141,54,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(59,170,53,1) 0%, rgba(0,141,54,1) 100%);
+    display: inline-block;
+    padding: 10px 100px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    margin: 50px 0px 0px;
+}
+.btn-accion:hover, .btn-accion:focus, .btn-accion.focus{
+    color: #fff;
+    background: rgba(0,141,54,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,141,54,1) 0%, rgba(59,170,53,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,141,54,1)), color-stop(100%, rgba(59,170,53,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,141,54,1) 0%, rgba(59,170,53,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,141,54,1) 0%, rgba(59,170,53,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,141,54,1) 0%, rgba(59,170,53,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,141,54,1) 0%, rgba(59,170,53,1) 100%);
+}
+.destinos h3{
+    font-family: 'Lato', sans-serif;
+    color: #3e3e3e;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo-mapa{
+    margin: 0px;
+    padding: 15px 0px;
+    text-align: center;
+    background: #008d36;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+#form p{
+    display: block;
+    margin: 0px;
+    padding: 5px 0px;
+}
+#form input{
+    float: left;
+    margin-right: 20px;
+}
+# form label{
+    font-family: 'Lato', sans-serif;
+    color: #3e3e3e;
+    font-size: 40px;
+}
+.maps{
+    width: 100%;
+    height: 350px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    margin-top: 60px;
+    background: rgba(46,46,46,1);
+    background: -moz-linear-gradient(left, rgba(46,46,46,1) 0%, rgba(77,77,77,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(46,46,46,1)), color-stop(100%, rgba(77,77,77,1)));
+    background: -webkit-linear-gradient(left, rgba(46,46,46,1) 0%, rgba(77,77,77,1) 100%);
+    background: -o-linear-gradient(left, rgba(46,46,46,1) 0%, rgba(77,77,77,1) 100%);
+    background: -ms-linear-gradient(left, rgba(46,46,46,1) 0%, rgba(77,77,77,1) 100%);
+    background: linear-gradient(to right, rgba(46,46,46,1) 0%, rgba(77,77,77,1) 100%);
+}
+.logo-footer{
+    padding-bottom: 20px;
+}
+.bajada{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contacto{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    list-style: none;
+}
+.contacto li{
+    font-size: 12px;
+    padding-bottom: 10px;;
+    overflow: hidden;
+}
+.contacto li i{
+    display: block;
+    float: left;
+    font-size: 25px;
+    width: 33px;
+    height: auto;
+}
+.contacto li .b{
+    display: block;
+    margin-top: 4px;
+}
+.menu-footer{
+    list-style: none;
+}
+.menu-footer li{
+    text-decoration: none;
+}
+.menu-footer li a{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 10px;
+}
+.menu-footer li a:hover{
+    color: #4c9d34;
+}
+/*---------------------- responsive -----------------------*/
+@media only screen and (max-width: 900px) {  
+    .logo-club img{
+        width: 380px; 
+    }
+}
+@media only screen and (max-width: 530px) {
+    .logo-club img{
+        width: 250px; 
+    }
+}
